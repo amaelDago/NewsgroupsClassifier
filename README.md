@@ -32,14 +32,14 @@ The differents task we have to are :
   - Move to repository : ```cd NewsgroupsClassifier```
   - Build docker image : ```docker build -t <myimage> .``` . 
   
-    Notice : When you run this script, models and train_eebedding have automocally loaded
+    Notice : When you run this script, models and train_embedding have automocally loaded
 
   - Run container : ```docker run -d --name <mycontainer> -p 8000:80 <myimage>``` (-d for detach mode)
   - Go to your host at port 8000 to see the API (```http://localhost:8000 ```) 
   - For inference you can use : 
       - Fast API swagger to test at :  ```http://localhost:8000/docs```
       - HTTP request via curl : ```curl -X 'POST' 'http://localhost:8001/predict/<sentence>?sentence=mysentence' -H 'accept: application/json' \-d ''```
-      - Insert your sentence on your web browser like this : ``http://localhost:8001/predict/<sentence>?sentence=mysentence`
+      - Insert your sentence on your web browser like this : ```http://localhost:8001/predict/<sentence>?sentence=mysentence```
 
    Result looks like : 
       ```python
@@ -49,5 +49,7 @@ The differents task we have to are :
       "distance": 155.3105926513672
       }
       ```
+
+You can get see colab notebook at this <a href = https://colab.research.google.com/drive/136K1hUT0kDTq8QiOiweYcU8RcwUBBXYx?usp=sharing> link<a>
 
    
