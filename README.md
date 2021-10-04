@@ -24,6 +24,9 @@ The differents task we have to are :
  - ```notebook``` folder: Get the notebook for question 1 and 2
  - ```api``` folder : for the REST API
  - ```requirements.txt``` file for dependances
+ - ```models``` folder : to saved models
+ - ```bin``` folder : fine tuning code for one shot classfication 
+
 
 
  ## HOW TO USE THIS REPOSITORY
