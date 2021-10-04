@@ -8,7 +8,6 @@ RUN pip install --no-cache-dir --upgrade -r /code/requirements.txt
 
 COPY bin/pipeline.py \
      README.md \
-     run.sh \
      get_dependencies.py \
      config.py \
      /code/
