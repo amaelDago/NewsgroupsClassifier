@@ -1,7 +1,7 @@
 ## TWENTY NEXS GROUPS CLASSIFICATION USING SENTENCE TRANSFORMER
 
 
-In this repository, we use one shot classification to classify the ```fetch_20News_groups``` of Scikit Learn.
+In this repository, we use one shot classification to classify the ```fetch_20newsgroups``` of Scikit Learn.
 The differents task we have to are : 
  - 1 In a Notebook, create a custom loading class inspired from https://github.com/UKPLab/sentence-transformers/blob/6fcfdfb30f9dfcc5fb978c97ce02941a7aa6ba63/sentence_transformers/datasets/SentenceLabelDataset.py.
 
