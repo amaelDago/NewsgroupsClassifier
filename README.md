@@ -24,16 +24,17 @@ The differents task we have to are :
  - ```notebook``` folder: Get the notebook for question 1 and 2
  - ```api``` folder : for the REST API
  - ```requirements.txt``` file for dependances
- - ```Makefile``` for simplify using of script bash
-
 
 
  ## HOW TO USE THIS REPOSITORY
 
   - Clone this repository with command below ```https://github.com/amaelDago/NewsgroupsClassifier.git```
   - Move to repository : ```cd NewsgroupsClassifier```
-  - Build docker image : ```docker build -t <mycontainername> .```
-  - Run container : ```docker run -d --name fastapi -p 8000:80 ng```
+  - Build docker image : ```docker build -t <myimage> .``` . 
+  
+    Notice : When you run this script, models and train_eebedding have automocally loaded
+
+  - Run container : ```docker run -d --name <mycontainer> -p 8000:80 <myimage>``` (-d for detach mode)
   - Go to your host at port 8000 to see the API (```http://localhost:8000 ```) 
   - For inference you can use : 
       - Fast API swagger to test at :  ```http://localhost:8000/docs```
