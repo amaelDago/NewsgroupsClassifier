@@ -53,6 +53,6 @@ The differents task we have to are :
       }
       ```
 
-You can get see colab notebook at this [link](https://colab.research.google.com/drive/136K1hUT0kDTq8QiOiweYcU8RcwUBBXYx?usp=sharing)
+You can see colab notebook at this [link](https://colab.research.google.com/drive/136K1hUT0kDTq8QiOiweYcU8RcwUBBXYx?usp=sharing)
 
    
