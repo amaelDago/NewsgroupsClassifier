@@ -31,17 +31,17 @@ The differents task we have to are :
  ## HOW TO USE THIS REPOSITORY
 
   - Clone this repository with command below ```https://github.com/amaelDago/NewsgroupsClassifier.git```
-  - Move to repository : ```cd cd NewsgroupsClassifier```
-  - Build docker image : ```docker build -t <mycontainername>```
-  - run container : ```docker run -d --name fastapi -p 8000:80 ng```
-  - Go to your <host>:8000 (```http://localhost:8000 ```) REST API
+  - Move to repository : ```cd NewsgroupsClassifier```
+  - Build docker image : ```docker build -t <mycontainername> .```
+  - Run container : ```docker run -d --name fastapi -p 8000:80 ng```
+  - Go to your host at port 8000 to see the API (```http://localhost:8000 ```) 
   - For inference you can use : 
       - Fast API swagger to test at :  ```http://localhost:8000/docs```
       - HTTP request via curl : ```curl -X 'POST' 'http://localhost:8001/predict/<sentence>?sentence=mysentence' -H 'accept: application/json' \-d ''```
       - Insert your sentence on your web browser like this : ``http://localhost:8001/predict/<sentence>?sentence=mysentence`
 
    Result looks like : 
-      ```json
+      ```python
          {
       "id": 17,
       "label": "talk.politics.mideast",
