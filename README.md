@@ -1,4 +1,4 @@
-## TWENTY NEXS GROUPS CLASSIFICATION USING SENTENCE TRANSFORMER
+## TWENTY NEWSGROUPS CLASSIFER USING SENTENCE TRANSFORMER
 
 
 In this repository, we use one shot classification to classify the ```fetch_20newsgroups``` of Scikit Learn.
@@ -31,7 +31,7 @@ The differents task we have to are :
 
  ## HOW TO USE THIS REPOSITORY
 
-  - Clone this repository with command below ```https://github.com/amaelDago/NewsgroupsClassifier.git```
+  - Clone this repository with following command ```https://github.com/amaelDago/NewsgroupsClassifier.git```
   - Move to repository : ```cd NewsgroupsClassifier```
   - Build docker image : ```docker build -t <myimage> .``` . 
   
