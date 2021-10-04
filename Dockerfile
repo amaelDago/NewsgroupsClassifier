@@ -14,11 +14,7 @@ COPY bin/pipeline.py \
      /code/
 
 ADD api /code/api
-#ADD train_embedding /code/train_embedding
-#ADD models /code/models
 
-RUN python get_dependencies.py && ls -l /code
-# RUN chmod +x /code/run.sh 
+RUN python get_dependencies.py && ls -l /code 
 
 CMD ["uvicorn", "api.app:app", "--host", "0.0.0.0", "--port", "80"]
-#CMD ["./run.sh"]
