@@ -31,7 +31,7 @@ The differents task we have to are :
 
  ## HOW TO USE THIS REPOSITORY
 
-  - Clone this repository with following command ```https://github.com/amaelDago/NewsgroupsClassifier.git```
+  - Clone this repository with following command ```git clone https://github.com/amaelDago/NewsgroupsClassifier.git```
   - Move to repository : ```cd NewsgroupsClassifier```
   - Build docker image : ```docker build -t <myimage> .``` . 
   
